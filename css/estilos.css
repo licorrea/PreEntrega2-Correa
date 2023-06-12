@@ -120,8 +120,13 @@ header {
   text-align: center;
 }
 
-.img__derecha {
+.img__izquierda img {
+  width: 20rem;
+}
+
+.img__derecha img {
   margin-top: 1rem;
+  width: 20rem;
 }
 
 .section__dos {
