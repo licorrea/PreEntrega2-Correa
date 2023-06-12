@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESPONTANEO</title>
+
+    <!-- Iconos -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'"
+      type="image/x-icon"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <figure class="header__logo">
+        <img src="../imagenes/logomobile.png" alt="Logo" />
+      </figure>
+      <nav>
+        <ul class="header__nav">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="cafeteria.html">Cafeteria</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="viandas.html">Viandas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <section>
+        <form action="">
+          <h2>¡Recompensamos tu fidelidad!</h2>
+          <h3>
+            Completa tus datos y registrate como cliente para acceder a nuestras
+            promociones y beneficios.
+          </h3>
+
+          <div>
+            <label for="nombres">Nombre y Apellido</label>
+          </div>
+          <div>
+            <input type="text" name="nombres" placeholder="Juan Perez" />
+          </div>
+          <div>
+            <label for="fechadenacimiento">Fecha de Nacimiento</label>
+          </div>
+          <div><input type="date" name="fechadenacimiento" /></div>
+
+          <div>
+            <label for="Correo">Correo</label>
+          </div>
+          <div>
+            <input
+              type="text"
+              name="Correo"
+              placeholder="juanperez@gmail.com"
+            />
+          </div>
+          <div>
+            <label for="telefono">Número de teléfono</label>
+          </div>
+          <div>
+            <input type="text" name="telefono" placeholder="+5491100000000" />
+          </div>
+
+          <div>¿Cuál es tu área de interés?</div>
+          <div>
+            <select name="interes" id="interes">
+              <option value="cafeteria">Cafetería</option>
+              <option value="viandas">Viandas</option>
+              <option value="congelados">Productos congelados</option>
+            </select>
+          </div>
+          <div>
+            <label for="infoviandas"
+              >¿Deseas recibir nuestro menú de viandas semanal?</label
+            >
+          </div>
+          <div>
+            <span><input type="radio" name="infoviandas" value="si" />Si</span>
+            <span><input type="radio" name="infoviandas" value="no" />No</span>
+          </div>
+          <div>
+            <label for="comentarios">¡Dejanos tus comentarios!</label>
+          </div>
+          <div>
+            <textarea
+              name="comentarios"
+              id="comentarios"
+              cols="50"
+              rows="10"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar" />
+            <input type="submit" value="Borrar" />
+          </div>
+        </form>
+      </section>
+      <section>
+        <h3>VISITANOS</h3>
+        <p>Abierto de 8 a 19 hs.</p>
+        <p>Juan de Garay 657, San Telmo. CABA.</p>
+        <p>+5491130504185</p>
+        <p>espontaneococina@gmail.com</p>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2016209348103!2d-58.37746652431495!3d-34.624344858587726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2d9eadbd3f%3A0x46219711b794b5f7!2sAv.%20Juan%20de%20Garay%20657%2C%20C1153ABE%20CABA!5e0!3m2!1ses!2sar!4v1684174047695!5m2!1ses!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer__redes">
+        <a href="mailto:espontaneococina@gmail.com"
+          ><img class="footer__icono" src="../imagenes/correo.png" alt=""
+        /></a>
+        <a href="https://www.instagram.com/espontaneococina/"
+          ><img class="footer__icono" src="../imagenes/instagram2.png" alt=""
+        /></a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=541130504185&text&type=phone_number&app_absent=0"
+          ><img class="footer__icono" src="../imagenes/whatsapp1.png" alt=""
+        /></a>
+      </div>
+      <h3 class="footer__titulo">
+        Copyright 2023 - Derechos reservados - ESPONTANEO
+      </h3>
+    </footer>
+  </body>
+</html>
